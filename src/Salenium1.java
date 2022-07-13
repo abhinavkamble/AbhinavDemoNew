@@ -18,6 +18,7 @@ public class Salenium1
 		driver.get("https://www.redbus.in/");
 		driver.findElement(By.xpath("//input[@id='src']")).sendKeys("Pune");
 
+		System.out.println("practice for git");
 	}
 
 }
